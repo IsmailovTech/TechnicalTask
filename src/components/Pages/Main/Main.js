@@ -18,6 +18,10 @@ import capture3 from '../../assets/images/capture3.png'
 import capture4 from '../../assets/images/capture4.png'
 import capture5 from '../../assets/images/capture5.png'
 import capture7 from '../../assets/images/capture7.png'
+import software1 from '../../assets/images/software1.png'
+import star from '../../assets/images/star.svg'
+import star1 from '../../assets/images/start1.svg'
+import feedbacki from '../../assets/images/feedback img.png'
 
 
 const Main = () => {
@@ -141,6 +145,83 @@ const Main = () => {
                         </div>
                     </div>
                 </Fade>
+                </div>
+            </div>
+
+            {/* software that drives employee */}
+
+            <div className="main_software">
+                <div className="container software">
+                <Roll left>
+                    <h1 className="ssh1">software that drives employee</h1>
+                    <h2 className="ssh2">Engagement & productivity</h2>
+                </Roll> 
+                
+                    <div className="software_both">
+                    
+                        <div className="software_left">
+                        <Slide top>
+                            <div className="software_left1">
+                                <h2>Flexible & Powerful</h2>
+                                <h3>Branding is the process of developing a company's brand, including name.</h3>
+                            </div>
+                        </Slide>   
+                        <Slide top>
+                            <div className="software_left2">
+                                <h2>Simplified Workflow</h2>
+                                <h3>Standard model of data storage in which the digital data and zip files are is stored.</h3>
+                            </div>
+                        </Slide> 
+                        <Slide top>
+                            <div className="software_left2">
+                                <h2>Branded Scheduling</h2>
+                                <h3>Workflow management system designed to compose and execute a series.</h3>
+                            </div>
+                        </Slide>
+                        <Slide top>
+                            <div className="software_left2">
+                                <h2>Reporting Analytics</h2>
+                                <h3>Activity related to selling or the amount of services sold in a given time period.</h3>
+                            </div>
+                        </Slide>
+                        </div>
+                    
+                        <Rotate top right>
+                            <div className="software_right">
+                                <img src={software1} alt="photo" className="software1" />
+                            </div>
+                        </Rotate>
+                    </div>
+                    
+                </div>
+            </div>
+
+            {/* Featured Feedback */}
+
+            <div className="main_feedback">
+                <div className="container feedback">
+                    <div>
+                        <div className="feedback_left">
+                            <h1>Featured Feedback</h1>
+                            <img src={star} alt="photo" />
+                        </div>
+                        <p>Spaatz helps us to build processes and automation into my business like a programmer without having to learn to code. My team is now using process to be more productive without even knowing it”</p>
+                        <div className="rating">
+                            <h3>Utility Tech</h3>
+                            <h4>(4.5 / 5 Rating)</h4>
+                            <div className="uti_starts">
+                                <img src={star1} alt="photo" />
+                                <img src={star1} alt="photo" />
+                                <img src={star1} alt="photo" />
+                                <img src={star1} alt="photo" />
+                                <img src={star1} alt="photo" />
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="feedback_right">
+                        <img src={feedbacki} alt="photo" />
+                    </div>
                 </div>
             </div>
 
