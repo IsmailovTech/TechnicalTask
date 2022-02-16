@@ -22,10 +22,24 @@ import software1 from '../../assets/images/software1.png'
 import star from '../../assets/images/star.svg'
 import star1 from '../../assets/images/start1.svg'
 import feedbacki from '../../assets/images/feedback img.png'
+import brands from '../../assets/images/brands.png'
+import cards1 from '../../assets/images/cards1.png'
+import cards2 from '../../assets/images/cards2.png'
+import cards3 from '../../assets/images/cards3.png'
+
+import avatar1 from '../../assets/images/avatar1.png'
+import avatar2 from '../../assets/images/avatar2.png'
+import avatar3 from '../../assets/images/avatar3.png'
+import unleash from '../../assets/images/unleash.png'
+
+import CardHeader from '@mui/material/CardHeader';
+import Avatar from '@mui/material/Avatar';
+import { red } from '@mui/material/colors';
+
 
 
 const Main = () => {
-
+    
     return (
         <>
         {/*/////=== Header page ===/////*/}
@@ -222,6 +236,76 @@ const Main = () => {
                     <div className="feedback_right">
                         <img src={feedbacki} alt="photo" />
                     </div>
+                </div>
+            </div>
+
+            {/* Loved by teams around the world */}
+
+            <div className="main_loved">
+                <div className="container">
+                    <div className="brands">
+                        <p className="brands_p" >Loved by teams around the world</p>
+                        <img src={brands} alt="photo" className="brands_img" />
+                    </div>
+
+                    <div className="Cards-main">
+                      <div className="card1">
+                          <img src={cards1} alt="photo" className="cards1_img" />
+                          <p className="card1_p" >Young startups with Spaatz In Full Throttle</p>
+                          <p className="card1_p2">Capitalize on low-hanging fruit to identify a ballpark value added activity to beta test override the digital divide with DevOps.</p>
+                          <CardHeader
+                                avatar={
+                                <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+                                    <img src={avatar1} alt="photo" />
+                                </Avatar>
+                                }
+                                title="Antony Wills"
+                                subheader="December 22, 2021 . Entertainment"
+                                className="cardherader"
+                            />
+                      </div>
+
+                      <div className="card1">
+                          <img src={cards2} alt="photo" className="cards1_img" />
+                          <p className="card1_p" >How to Choose A Tech Stack for Your Startup</p>
+                          <p className="card1_p2">Strategies on low-hanging fruit to identify a ballpark value added activity to beta test override the digital divide with DevOps.</p>
+                          <CardHeader
+                                avatar={
+                                <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+                                    <img src={avatar2} alt="photo" />
+                                </Avatar>
+                                }
+                                title="Natalia Tena"
+                                subheader="December 22, 2021 . Lifestyle"
+                                className="cardherader"
+                            />
+                      </div>
+
+                      <div className="card1">
+                          <img src={cards3} alt="photo" className="cards1_img" />
+                          <p className="card1_p" >More Powerful, Polished Spaatz for Android    </p>
+                          <p className="card1_p2">Collaborative on low-hanging fruit to identify a ballpark value added activity to beta test override the digital form of the divide.</p>
+                          <CardHeader
+                                avatar={
+                                <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+                                    <img src={avatar3} alt="photo" />
+                                </Avatar>
+                                }
+                                title="John Methow"
+                                subheader="December 24, 2021 . Productivity"
+                                className="cardherader"
+                            />
+                      </div>
+
+                    </div>
+                     <div className="btn_center" ><button className="more_btn" >More Blogs</button></div>
+                    
+                    <div className="unleash_main">
+                        <p>Unleash your growth potential</p>
+                        <button className="nav_btn" >Request Demo <GrFormNextLink/></button>
+                    </div>
+                    
+                    <img src={unleash} alt="photo" className="unleash_img" />
                 </div>
             </div>
 

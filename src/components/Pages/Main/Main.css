@@ -474,8 +474,8 @@
   margin-top: 40px;
 }
 
-.rating{
-    margin-top: 130px;
+.rating {
+  margin-top: 130px;
 }
 
 .rating h3 {
@@ -498,9 +498,129 @@
   color: #ababab;
 }
 
-.uti_starts{
-    margin-top: 10px;
-    display: flex;
-    width: 220px;
-    justify-content: space-between;
+.uti_starts {
+  margin-top: 10px;
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+}
+
+/* Loved Team */
+
+.main_loved {
+  width: 100%;
+  height: auto;
+  background: #e5e5e5;
+}
+
+.brands_p {
+  font-family: Open Sans;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 159px;
+  color: #1b2534;
+}
+
+.brands_img {
+  width: 1300px;
+  margin-top: 10px;
+}
+
+.Cards-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.card1_p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 42px;
+  text-transform: capitalize;
+  max-width: 389px;
+  color: #1b2534;
+  margin-top: 27px;
+}
+
+.card1_p2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #606060;
+  max-width: 411px;
+  margin-top: 25px;
+}
+
+.cardherader {
+  max-width: 411px;
+  padding: 0px !important;
+  margin-top: 38px;
+}
+
+.cards1_img {
+  width: 405px;
+}
+
+.more_btn {
+  width: 227px;
+  height: 72px;
+  background: #29a0f5;
+  border: 1px solid #29a0f5;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 85px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+.more_btn:hover {
+  transition: 0.3s ease-in-out;
+  color: #29a0f5;
+  background-color: white;
+  border: 2px solid #29a0f5;
+}
+
+.btn_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unleash_main {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 300px;
+}
+
+.unleash_main p {
+  max-width: 570px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 84px;
+  /* or 130% */
+
+  text-transform: capitalize;
+
+  color: #1b2534;
+}
+
+.unleash_img{
+  width: 100%;
+  margin-top: 80px;
 }
