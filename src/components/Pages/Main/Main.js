@@ -7,6 +7,7 @@ import Rotate from 'react-reveal/Rotate';
 import Roll from 'react-reveal/Roll';
 import Flip from 'react-reveal/Flip';
 import logo from '../../assets/images/logo.png';
+import logofoot from '../../assets/images/logofoot.svg';
 import { GrFormNextLink } from "react-icons/gr";
 import main2 from '../../assets/images/main2.png'
 import diamond from '../../assets/images/diamond.svg'
@@ -31,10 +32,16 @@ import avatar1 from '../../assets/images/avatar1.png'
 import avatar2 from '../../assets/images/avatar2.png'
 import avatar3 from '../../assets/images/avatar3.png'
 import unleash from '../../assets/images/unleash.png'
+import footerimg from '../../assets/images/footerimg.png'
 
 import CardHeader from '@mui/material/CardHeader';
 import Avatar from '@mui/material/Avatar';
 import { red } from '@mui/material/colors';
+
+import { ImTelegram } from "react-icons/im";
+import { ImTwitter } from "react-icons/im";
+import { ImYoutube } from "react-icons/im";
+import { AiFillInstagram } from "react-icons/ai";
 
 
 
@@ -308,7 +315,59 @@ const Main = () => {
                     <img src={unleash} alt="photo" className="unleash_img" />
                 </div>
             </div>
-
+            <div className="main_footer">
+                <div className="container footer">
+                            <div className="footer1">
+                                <div className="footer_left">
+                                    <img src={logofoot} alt="photo" />
+                                    <p className="footer_leftp">Spaatz is a professional yet creative dashboard for organize your business.</p>
+                                     <div className="footer_icons">
+                                     <ImTelegram class="icon_social telegram" />
+                                     <AiFillInstagram class="icon_social instagram" />
+                                     <ImYoutube class="icon_social youtube" />
+                                     <ImTwitter class="icon_social twitter" />
+                                     </div>
+                                </div>
+                                <div className="footer_middle">
+                                    <ul className="footer_middle_nav">
+                                        <p className="nav_txt" >Explore</p>
+                                        <li>Web App</li>
+                                        <li>Mobile App</li>
+                                        <li>Blog</li>
+                                        <li>Contact</li>
+                                        <li>Demo</li>
+                                    </ul>
+                                    <ul className="footer_middle_nav">
+                                        <p className="nav_txt" >Utility</p>
+                                        <li>Licenses</li>
+                                        <li>Style Guide</li>
+                                        <li>Change Log</li>
+                                        <li>Protected</li>
+                                        <li>Not Found</li>
+                                    </ul>
+                                    <ul className="footer_middle_nav">
+                                        <p className="nav_txt" >Category</p>
+                                        <li>Lifestyle</li>
+                                        <li>Productivity</li>
+                                        <li>Social Media</li>
+                                        <li>Entertain</li>
+                                        <li>Creative</li>
+                                    </ul>
+                                </div>
+                                <div className="footer_right">
+                                    <img src={footerimg} alt="photo" />
+                                </div>
+                            </div>
+                            
+                            <div className="footer2">
+                                    <hr className="footer2_line"/>
+                                <div className="licence">
+                                    <p>Spaatz © 2022. Designed by <span>Victorflow</span> - Powered by <span>Webflow</span></p>
+                                    <p>Entertainment / Lifestyle / Productivity / Social Media</p>
+                                </div>
+                            </div>
+                </div>
+            </div>
         </>
     );
 }

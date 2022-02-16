@@ -620,7 +620,140 @@
   color: #1b2534;
 }
 
-.unleash_img{
+.unleash_img {
   width: 100%;
   margin-top: 80px;
 }
+
+.main_footer {
+  width: 100%;
+  background-color: #1b2534;
+}
+
+.footer1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 127px;
+}
+
+.footer_leftp {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  max-width: 264px;
+  letter-spacing: 0.2px;
+  margin-top: 22px;
+  color: #ababab;
+}
+
+.footer_icons {
+  margin-top: 100px;
+}
+
+.icon_social {
+  width: 20px;
+  height: 20px;
+  margin: 0px 8px;
+}
+
+.twitter,
+.telegram,
+.instagram,
+.youtube {
+  color: #ffffff;
+}
+
+.twitter:hover {
+  color: rgb(0, 132, 255);
+  transition: 0.3s;
+}
+
+.telegram:hover {
+  color: rgb(0, 113, 189);
+  transition: 0.3s;
+}
+
+.youtube:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.instagram :hover {
+  color: rgb(224, 0, 187);
+  transition: 0.3s;
+}
+
+.footer_middle {
+  width: 600px;
+  height: 330px;
+  background: #283343;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+
+.nav_txt {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+
+  color: #ffffff;
+}
+
+.footer_middle ul li {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.36px;
+  margin: 15px 0px;
+  color: #ababab;
+  cursor: pointer;
+}
+
+.footer_middle ul li:hover {
+  color: #29a0f5;
+  transition: 0.3s;
+}
+
+.footer2_line{
+  border: 1px solid #606060;
+  margin-top: 12px;
+}
+
+.licence{
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.licence p{
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.36px;
+
+color: #ABABAB;
+
+}
+
+.licence p span{
+  color: #29A0F5;
+}
+
+
