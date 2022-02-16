@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-scroll"
 import './Main.css';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
@@ -55,11 +56,11 @@ const Main = () => {
                     <div className="container navigation">
                         <img src={logo} alt="photo" className="logo_main" />
                         <ul className='nav_ul'>
-                            <li>Web App</li>
-                            <li>Mobile App</li>
-                            <li>Pricing</li>
-                            <li>Blog</li>
-                            <li>Utility Pages</li>
+                            <li><Link to="web" spy={true} smooth={true} offset={50} duration={500} >Web App</Link></li>
+                            <li><Link to="mobile" spy={true} smooth={true} offset={50} duration={500} >Mobile App</Link></li>
+                            <li><Link to="pricing" spy={true} smooth={true} offset={50} duration={500} >Pricing</Link></li>
+                            <li><Link to="blog" spy={true} smooth={true} offset={50} duration={500} >Blog</Link></li>
+                            <li><Link to="utility" spy={true} smooth={true} offset={50} duration={500} >Utility Pages</Link></li>
                         </ul>
                         <button className="nav_btn" >Request A Demo</button>
                     </div>
@@ -82,7 +83,7 @@ const Main = () => {
            </div>
            {/*//// Perfect approach towards ////*/}
 
-            <div className="main_perfect">
+            <div className="main_perfect" id="web">
                 <div className="container perfect">
                     <Zoom bottom>
                         <img src={main2} alt="photo" className="main2_img" />
@@ -127,7 +128,7 @@ const Main = () => {
             </div>
             {/*///=== Capture & convert excellent leads ==///*/}
 
-            <div className="main_capture">
+            <div className="main_capture" id="mobile">
                 <div className="container">
                     <div className="capture_header">
                         
@@ -171,7 +172,7 @@ const Main = () => {
 
             {/* software that drives employee */}
 
-            <div className="main_software">
+            <div className="main_software" id="pricing">
                 <div className="container software">
                 <Roll left>
                     <h1 className="ssh1">software that drives employee</h1>
@@ -219,7 +220,7 @@ const Main = () => {
 
             {/* Featured Feedback */}
 
-            <div className="main_feedback">
+            <div className="main_feedback" id="blog">
                 <div className="container feedback">
                     <div>
                         <div className="feedback_left">
@@ -248,7 +249,7 @@ const Main = () => {
 
             {/* Loved by teams around the world */}
 
-            <div className="main_loved">
+            <div className="main_loved" id="utility">
                 <div className="container">
                     <div className="brands">
                         <p className="brands_p" >Loved by teams around the world</p>
